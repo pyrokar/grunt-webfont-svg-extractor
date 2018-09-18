@@ -93,7 +93,7 @@ module.exports = function (grunt) {
         iconCount++;
 
         var template =
-          '<svg width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg">' +
+          '<svg viewBox="0 0 {width} {height}" width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg">' +
           '<path d="{d}" />' +
           '</svg>';
 
